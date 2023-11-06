@@ -1,5 +1,5 @@
-export const errorCodeType = function(code:string):string{
-    let errMessage:string = "未知错误"
+export const errorCodeType = function (code: string): string {
+    let errMessage: string = "未知错误"
     switch (code) {
         case 400:
             errMessage = '请求失败！请您稍后重试'

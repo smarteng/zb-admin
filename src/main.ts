@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './routers'
 import pinia from "./store";
 
-import {registerElIcons} from "@/plugins/ElIcons"
+import { registerElIcons } from "@/plugins/ElIcons"
 // 引入全局组件布局
 import PageWrapLayout from '@/components/PageWrapLayout/index.vue'
 // 权限路由
@@ -25,8 +25,8 @@ import "@/assets/iconfont/iconfont.js";
 const app = createApp(App)
 registerElIcons(app)
 
-app.component('svg-icon',SvgIcon)
-app.component('PageWrapLayout',PageWrapLayout)
+app.component('svg-icon', SvgIcon)
+app.component('PageWrapLayout', PageWrapLayout)
 
 app.use(pinia)
 app.use(router)
