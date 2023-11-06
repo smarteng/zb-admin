@@ -25,7 +25,7 @@ import functionPageRouter from './modules/functionPage'
 
 // 异步组件
 export const asyncRoutes = [
-  ...dataScreenRouter,
+  // ...dataScreenRouter,
   ...echartsRouter,
   ...tableRouter,
   ...formRouter,
