@@ -32,10 +32,10 @@ const tableRouter = [
         meta: { title: '可编辑表格', keepAlive: true, icon: 'MenuIcon' },
       },
       // {
-      //     path: 'virtualTable',
-      //     component: () => import('@/views/table/VirtualTable.vue'),
-      //     name: 'virtualTable',
-      //     meta: { title: '虚拟表格', keepAlive: true  , icon: 'MenuIcon'}
+      //   path: '/table/virtualTable',
+      //   component: () => import('@/views/table/VirtualTable.vue'),
+      //   name: 'virtualTable',
+      //   meta: { title: '虚拟表格', keepAlive: true, icon: 'MenuIcon' },
       // },
     ],
   },
